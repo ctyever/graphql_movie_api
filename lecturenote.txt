@@ -1,0 +1,13 @@
+type Person {
+  name: String!
+  age: Int!
+  gender: String!
+}
+
+! 는 필수 사항이라는 뜻
+
+Graph resolvers 는 graphql 서버에서 요청을 받음.
+graphql 서버가 query 나 mutation 의 정의를 발견
+resolvers 로 풀어냄
+
+Mutation 은 Database 상태가 변할 때 사용
